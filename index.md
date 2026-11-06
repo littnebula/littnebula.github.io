@@ -1,3 +1,20 @@
+## Table of Contents
+
+- [Overview](#overview)
+- [Project Goals](#project-goals)
+- [Core Features](#core-features)
+- [Deployment](#deployment)
+- [User Guide](#user-guide)
+- [Community Feedback](#community-feedback)
+- [Developer Guide](#developer-guide)
+- [Development History](#development-history)
+- [Continuous Integration](#continuous-integration)
+- [Walkthrough Videos](#walkthrough-videos)
+- [Team](#team)
+
+
+
+
 Development Document for Word Cloud Web Application:
 Overview:
 	A webpage where users can upload text, to be generated into word cloud data (word frequency dictionaries) that can be displayed in various ways and with tools for sharing, research, commenting, and building datasets.
