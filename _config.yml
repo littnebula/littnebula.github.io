@@ -1,3 +1,11 @@
-theme: jekyll-theme-cayman
 title: LittNebula
-description: A Word Cloud Generation, Visualization, and Analysis Platform
+description: Word Cloud Generation, Visualization, and Analysis
+google_analytics:
+show_downloads: false
+theme: jekyll-theme-cayman
+github:
+  is_project_page: true
+  repository_url: https://github.com/littnebula/littnebula.github.io
+gems:
+  - jekyll-mentions
+  
