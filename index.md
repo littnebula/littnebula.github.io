@@ -23,28 +23,28 @@ The is webpage utilizes software engineering frameworks and templates such as:
 
 The front page for any new user will give a brief message on what they can do, with links to the landing, search, and login or registration page. Clicking on the center logo will direct you to the organization home page, this webpage, you are currently at.
 ### Landing Page
-![](doc/landig-page-mockup.png)
+![](doc/landig-page-mockup.webp)
 Immediately any visitor, login in or otherwise will be able to search, view and analyze cloud data, which will be referred  to as territories. To bookmark, perform comparative analysis, and create new territories, visitors must be logged in. 
 
 ### Registration
-![](doc/register-page-mockup.png)
+![](doc/register-page-mockup.webp)
 On the registration page, new users will be asked to supply their email address and a password for authentication.
 
 ### User Homepage
-![](doc/userhomepage-page-mockup.png)
+![](doc/userhomepage-page-mockup.webp)
 Upon successfully logging in users will be met with their curated home page which will display the territories they have created, have editing privileges to, have bookmarked for easy access and a list of their most recent territories interacted with. There will also be an announcements column that will display news shared by the site admins on special collaborations, events, links, or recommendations for territories to look at based on user interests.
 New users will only be met with a mostly empty home page with a bright button prompting them to upload a text to start a new territory.
 
 ### Create New Territory
-![](doc/create_wordcloud_page.png)
+![](doc/create_wordcloud_page.webp)
 Plain text copies of the literary sources to be explored are allowed, Users can copy and paste text into a text area, or they can upload text files, which will be extracted and displayed in to the same input text area for users to review. Below the source text display, are options for the user to define such as the kind of language used in the source text, the the citations for each source text used, including links, tags for more better search results, a title and description of the word cloud data, sharing edit access to other users by defining their emails, and the visibility of the territory to other users on the webpage.
 
 ### Edit Territory
-![](doc/edit_wordcloud_page.png)
+![](doc/edit_wordcloud_page.webp)
 After creating the word cloud data, users are directed to the edit page of that word cloud data, where they can immediately see every unique word that was found, the number of times each one shows up, the resulting visual representation of that word cloud based on default settings, and options for excluding words, merging word frequencies for similar words, and modifying other aspects of the territory.
 
 ### Searching
-![](doc/search_page_mockup.png)
+![](doc/search_page_mockup.webp)
 For searching for the specific territories, users can input key words in titles, or for specific topics, filtering all public territories by their tags. For private territories, users can only access those via their bookmarks or by accessing the direct links shared by the owners of those territories.
 
 
