@@ -11,7 +11,7 @@
 * [Team](#team)
 
 ## Overview
-	A hub where users can upload text, to be generated into word cloud data (word frequency dictionaries) that can be displayed in various ways and with tools for sharing, research, analysis, collaborations, and building datasets. Word cloud data provide an analysis of both individual and collective thoughts from authors of a specific time period or culture, comparing the frequency of words and ideas used for bodies of text and showing how they change over time. LittNebula is a name inspired by the power of language and paying homage to ancient latin, one of the origins of the most widely spoken language in the world, where “Litt” is a shorthand for littera, meaning Literature and “Nebula”, meaning cloud. The modern concept of nebulas relating to space and astronomy invokes the same feeling of grandeur and depth that the research enabled by word clouds. Reinforcing this connection, the LittNebula utilizes a theme reminiscent of cosmology and astrological bodies in its color scheme, symbols, and terminology.
+A hub where users can upload text, to be generated into word cloud data (word frequency dictionaries) that can be displayed in various ways and with tools for sharing, research, analysis, collaborations, and building datasets. Word cloud data provide an analysis of both individual and collective thoughts from authors of a specific time period or culture, comparing the frequency of words and ideas used for bodies of text and showing how they change over time. LittNebula is a name inspired by the power of language and paying homage to ancient latin, one of the origins of the most widely spoken language in the world, where “Litt” is a shorthand for littera, meaning Literature and “Nebula”, meaning cloud. The modern concept of nebulas relating to space and astronomy invokes the same feeling of grandeur and depth that the research enabled by word clouds. Reinforcing this connection, the LittNebula utilizes a theme reminiscent of cosmology and astrological bodies in its color scheme, symbols, and terminology.
 
 The is webpage utilizes software engineering frameworks and templates such as:
 * [React](https://reactjs.org/) for component-based UI implementation and routing.
@@ -68,10 +68,10 @@ Each word cloud can hold comments from any user that is able to view it.
 All wordclouds and comments will have a unique Id and an owner property that will be used to show who created them and as who can have access to modify or delete them.
 
 ## Development History
-	Currently in planning stages...
+Currently in planning stages...
 
 ## Continuous Integration
-	Currently in planning stages...
+Currently in planning stages...
 
 
 ## Example Enhancements
