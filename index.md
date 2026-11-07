@@ -69,8 +69,8 @@ Each Wordcloud will contain a dictionary of unqie words and the the amount of ti
 All wordclouds and comments will have a unique Id and an owner property that will be used to show who created them and who has access to modify or delete them.
 
 ## Development History
-2026-11-05 : Create development document for initial planning of project execution.
-2026-11-06 : Create organization Homepage and web application repository.
+* 2026-11-05 : Create development document for initial planning of project execution. 
+* 2026-11-06 : Create organization Homepage and web application repository. 
 
 
 ## Continuous Integration
