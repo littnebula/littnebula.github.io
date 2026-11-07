@@ -1,126 +1,69 @@
-## Table of Contents
+# LittNebula
 
-- [Overview](#overview)
-- [Project Goals](#project-goals)
-- [Core Features](#core-features)
-- [Deployment](#deployment)
-- [User Guide](#user-guide)
-- [Community Feedback](#community-feedback)
-- [Developer Guide](#developer-guide)
-- [Development History](#development-history)
-- [Continuous Integration](#continuous-integration)
-- [Walkthrough Videos](#walkthrough-videos)
-- [Team](#team)
+## Table of contents
+* [Overview](#overview)
+* [User Guide](#user-guide)
+* [Community Feedback](#community-feedback)
+* [Developer Guide](#developer-guide)
+* [Development History](#development-history)
+* [Continuous Integration](#continuous-integration)
+* [Example enhancements](#example-enhancements)
+* [Team](#team)
 
+## Overview
+	A hub where users can upload text, to be generated into word cloud data (word frequency dictionaries) that can be displayed in various ways and with tools for sharing, research, analysis, collaborations, and building datasets. Word cloud data provide an analysis of both individual and collective thoughts from authors of a specific time period or culture, comparing the frequency of words and ideas used for bodies of text and showing how they change over time. LittNebula is a name inspired by the power of language and paying homage to ancient latin, one of the origins of the most widely spoken language in the world, where “Litt” is a shorthand for littera, meaning Literature and “Nebula”, meaning cloud. The modern concept of nebulas relating to space and astronomy invokes the same feeling of grandeur and depth that the research enabled by word clouds. Reinforcing this connection, the LittNebula utilizes a theme reminiscent of cosmology and astrological bodies in its color scheme, symbols, and terminology.
 
-
-
-Development Document for Word Cloud Web Application:
-Overview:
-	A webpage where users can upload text, to be generated into word cloud data (word frequency dictionaries) that can be displayed in various ways and with tools for sharing, research, commenting, and building datasets.
-
-Organization: LittNebula (literature in latin = Littera (Litt), Cloud in latin = Nebula)
+The is webpage utilizes software engineering frameworks and templates such as:
+* [React](https://reactjs.org/) for component-based UI implementation and routing.
+* [React Bootstrap](https://react-bootstrap.github.io/) CSS Framework for UI design.
+* [Nextjs-Application-Template](https://ics-software-engineering.github.io/nextjs-application-template/) Application Template Starter
 
 
+## User Guide
 
- ======================== To Do ========================
-Priority:
-Github Organization HomePage repo (Org Homepage)
-“The home page for your organization should evolve over time to reflect the most recent state of your project. To begin with, the home page should provide a good description of the goals of the project, what the system should eventually provide, and screen shots of the mockup pages you plan to use as a basis for your final project. “
-Design simple mockup visuals for User Homepage, User Login, Front Landing Page, Admin View of Cloud Data, Cloud Data display page, Cloud Data Add/Edit page,
-Github Project Repo (source code)
-Use Next Js Template and create mock up pages
-Deploy to vercel
-Design and debug Word Cloud Generator function:
-Given plain text string, split into array of unique words, count the number of times the same word shows up, create a dictionary or json object the stores key:value as “word”:”count”
-Save the json object to database
-Implement Word Cloud Visualizer
-References: https://github.com/boakham/d3-cloud-ts, https://medium.com/react-courses/create-a-word-cloud-data-visualization-chart-with-d3js-reactjs-and-typescript-969c63506856 
-Later: 
-Design Landing page for guests 
-Design Registration, Login / Logout pages
-Design User Homepage
-Design Admin Homepage
-Design Add Word Cloud data page
-Design Edit Word Cloud data page (similar to add but with extra options, including delete option)
-Design View Word Cloud data page: Display wordcloud as both cluster and a simple list of words
-Provide support for languages that use alphabetical lexicon: Spanish, French, German,
-Provide support for common languages in UHM, Japanese , Korean, Hawaiian, 
-Provide support for hybrid languages: Hawaiʻi Pidgin, 
-Make it possible to analyze/ compare 2 different word cloud data.
+The front page for any new user will give a brief message on what they can do, with links to the landing, search, and login or registration page. Clicking on the center logo will direct you to the organization home page, this webpage, you are currently at.
+### Landing Page
+![](doc/landig-page-mockup.png)
+Immediately any visitor, login in or otherwise will be able to search, view and analyze cloud data, which will be referred  to as territories. To bookmark, perform comparative analysis, and create new territories, visitors must be logged in. 
 
-Optional:
-Make Word cloud viewing page animated
-Make It possible to compare multiple word clouds 3+,
+### Registration
+![](doc/register-page-mockup.png)
+On the registration page, new users will be asked to supply their email address and a password for authentication.
+
+### User Homepage
+![](doc/userhomepage-page-mockup.png)
+Upon successfully logging in users will be met with their curated home page which will display the territories they have created, have editing privileges to, have bookmarked for easy access and a list of their most recent territories interacted with. There will also be an announcements column that will display news shared by the site admins on special collaborations, events, links, or recommendations for territories to look at based on user interests.
+New users will only be met with a mostly empty home page with a bright button prompting them to upload a text to start a new territory.
+
+### Create New Territory
+![](doc/create_wordcloud_page.png)
+Plain text copies of the literary sources to be explored are allowed, Users can copy and paste text into a text area, or they can upload text files, which will be extracted and displayed in to the same input text area for users to review. Below the source text display, are options for the user to define such as the kind of language used in the source text, the the citations for each source text used, including links, tags for more better search results, a title and description of the word cloud data, sharing edit access to other users by defining their emails, and the visibility of the territory to other users on the webpage.
+
+### Edit Territory
+![](doc/edit_wordcloud_page.png)
+After creating the word cloud data, users are directed to the edit page of that word cloud data, where they can immediately see every unique word that was found, the number of times each one shows up, the resulting visual representation of that word cloud based on default settings, and options for excluding words, merging word frequencies for similar words, and modifying other aspects of the territory.
+
+### Searching
+![](doc/search_page_mockup.png)
+For searching for the specific territories, users can input key words in titles, or for specific topics, filtering all public territories by their tags. For private territories, users can only access those via their bookmarks or by accessing the direct links shared by the owners of those territories.
 
 
 
 
+## Community Feedback
 
+We are interested in your experience using LittNebula! If you would like, please take a couple of minutes to email us at LitteraNebulaTeam@gmail.com, telling us about any issues, suggestion for improvements or other comments on your use of the site and how we can improve the site to enhance that experience.
 
+### Application Design
 
+LittNebula is based upon [Nextjs-Application-Template](https://ics-software-engineering.github.io/nextjs-application-template/). Please use the videos and documentation at this site to better acquaint yourself with the basic application design in LittNebula.
 
+### Data model
 
-===================== IDEAS SECTION =====================
+LittNebula utilizes 3 distinct primary collections (Users, Wordclouds, and Comments)
 
-Layout style inspiration/ references:
-https://store.steampowered.com/, https://www.youtube.com/, 
+New users can create Wordclouds
+Each word cloud can hold comments from any user that is able to view it.
 
-Home page presents the cloud data first, prioritizing content 
+All wordclouds and comments will have a unique Id and an owner property that will be used to show who created them and as who can have access to modify or delta them.
 
-
-
-
-
-These are just layout sketches, color schemes can be applied later
-Considerations for Mobile view use: Make left side bar collapsable
-
-
-Database structure: How will we store our data to the db and what do we need to store to implement certain features
-	User table: *same as template users
-ID (int), 
-email (string @unique), 
-password (string), 
-role (user or admin)
-accessiblewc (int[]) 
-# unique ids of word cloud data that the user can access even if that data is private, always contains the user’s created wc data
-		bookmarkedwc (int[]) 
-	WordCloud table:
-		owner (string), 
-unique entry id(int), 
-word frequency data (json), 
-word list(string[]), 
-language(string), 
-upload datetime (int formatted as yyyymmddhhmmss to make it easier to sort), 
-text citation source (string), 
-text author (string),
-dataset description (string), 
-tags (string[]), 
-sharing type (int: public, private, restricted, or unpublished), 
-views counter (int), # Total views, used for sorting by all-time popularity
-recent views counter (int[]) # used to figure out which ones are trending
-cloud data title (string) 
-editors (string[]) # who can modify the word cloud data
-bookmarks (int)
-	Posts: * similar to digits note
-		owner (string), 
-unique entry id(int), 
-cloud data id (int), 
-timestamp (DateTime @default(now()))
-description (string)
-comments (Comment[])
-	Comments: * same as digits note model
-		owner (string), 
-unique entry id (int), 
-		post unique id (int),
-		comment (string),
-		timestamp (DateTime @default(now()))
-
-
-		
-Core features:
-Users copy-paste plain text into a text field that will run the WordCloud generation function, that generates a json object with “word” keys assigned with their corresponding “frequency” values or the number of times they show up in the text source.
-User can edit generated cloud data by:
-Removing certain words from the data set, such as “the”, “a”, “is”, “it”, “they”, and other words that may appear in high frequencies but don’t contribute to the qualitative analysis.
-Merging word frequencies: Ie: “word” and “words” can be merged by adding the frequency of 1 to the other then removing it ->[ word: 1002, words: 15 => word: 1017 ]
-When publishing (setting to public) for the first time, publication date is set
