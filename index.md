@@ -65,5 +65,28 @@ LittNebula utilizes 3 distinct primary collections (Users, Wordclouds, and Comme
 New users can create Wordclouds
 Each word cloud can hold comments from any user that is able to view it.
 
-All wordclouds and comments will have a unique Id and an owner property that will be used to show who created them and as who can have access to modify or delta them.
+All wordclouds and comments will have a unique Id and an owner property that will be used to show who created them and as who can have access to modify or delete them.
 
+## Development History
+	Currently in planning stages...
+
+## Continuous Integration
+	Currently in planning stages...
+
+
+## Example Enhancements
+
+There are a number of simple enhancements you can make to the system to become better acquainted with the codebase:
+* Allow users to upload their own profile picture
+* Assigning a thumbnail to each Territory
+* Expand the comparison feature to allow for more than 2 territories.
+* For each word in the Word cloud visualization, make the word into a link that opens a dictionary definition page or a custom link defined by the owner
+* Expand the text file text extractor to allow for other text documents like docx, pdf, or code file like jsx or tsx.
+* Create a more robust search engine that can still give results for key words, or tags that are slightly misspelled. 
+* Allow for key words entered in the search bar to be examined in descriptions, citations, and editors list. Or search explicitly for word clouds owned by a specific user.
+* Update word extraction algorithm to work with more languages
+
+
+## Team
+
+LittNebula is designed, implemented, and maintained by [Kevin Lee](https://leek7.github.io/) and [Au Quang](https://quangau0298.github.io/).
