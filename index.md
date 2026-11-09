@@ -43,7 +43,7 @@ Plain text copies of the literary sources to be explored are allowed, Users can 
 After creating the word cloud data, users are directed to the edit page of that word cloud data, where they can immediately see every unique word that was found, the number of times each one shows up, the resulting visual representation of that word cloud based on default settings, and options for excluding words, merging word frequencies for similar words, and modifying other aspects of the territory.
 
 ### Searching
-![](doc/search_page_mockup.webp)
+![](doc/search-page-mockup.webp)
 For searching for the specific territories, users can input key words in titles, or for specific topics, filtering all public territories by their tags. For private territories, users can only access those via their bookmarks or by accessing the direct links shared by the owners of those territories.
 
 
