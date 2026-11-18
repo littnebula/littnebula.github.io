@@ -22,19 +22,19 @@ The is webpage utilizes software engineering frameworks and templates such as:
 
 The front page for any new user will give a brief message on what they can do, with links to the landing, search, and login or registration page. Clicking on the center logo will direct you to the organization home page, this webpage, you are currently at.
 ### Landing Page
-![](landing-page-mockup-m1.png)
+![](landing-page-mockup-m1.webp)
 Immediately any visitor, login in or otherwise will be able to search, view and analyze cloud data, which will be referred  to as territories. To bookmark, perform comparative analysis, and create new territories, visitors must be logged in. 
 
 ### Registration
-![](register-page-mockup-m1.png)
+![](register-page-mockup-m1.webp)
 On the registration page, new users will be asked to supply their email address and a password for authentication.
 
 ### User Homepage
-![](dashboard-page-mockup-m1.png)
+![](dashboard-page-mockup-m1.webp)
 Upon successfully logging in users will be met with their curated dashboard which will display the territories they have created, have editing privileges to, have bookmarked for easy access and a list of their most recent territories interacted with.
 
 ### Create New Territory
-![](create-wordcloud-mockup-m1.png)
+![](create-wordcloud-mockup-m1.webp)
 Plain text copies of the literary sources to be explored are allowed, Users can copy and paste text into a text area, which will be extracted and displayed in to the same input text area for users to review. Below the source text display, are options for the user to define such as the kind of language used in the source text, the the citations for each source text used, including links, tags for more better search results, a title and description of the word cloud data, and the visibility of the territory to other users on the webpage.
 
 ### Edit Territory
@@ -42,17 +42,17 @@ Plain text copies of the literary sources to be explored are allowed, Users can 
 After creating the word cloud data, users are directed to the edit page of that word cloud data, where they can immediately see every unique word that was found, the number of times each one shows up, and options for excluding words, merging word frequencies for similar words, and modifying other aspects of the territory.
 
 ### View Profiles
-![](viewprofiles-page-mockup-m1.png)
+![](viewprofiles-page-mockup-m1.webp)
 Registered users will be able to view current profiles that are registered in the database. They will be able to view others profiles and their associated public word clouds.
 
 ### Searching
-![](search2-page-mockup-m1.png)
+![](search2-page-mockup-m1.webp)
 For searching for the specific territories, users can input key words in titles, or for specific topics, filtering all public territories by their tags. 
-![](search-page-mockup-m1.png)
+![](search-page-mockup-m1.webp)
 They can also search for other users registered in the database. For private territories, users can only access those via their bookmarks or by accessing the direct links shared by the owners of those territories.
 
 ### Admin
-![](admin-page-mockup-m1.png)
+![](admin-page-mockup-m1.webp)
 Admins are able to view all registered users and created word clouds within the database. They will also be able to edit and remove wordclouds.
 
 
