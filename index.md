@@ -38,7 +38,7 @@ Upon successfully logging in users will be met with their curated dashboard whic
 Plain text copies of the literary sources to be explored are allowed, Users can copy and paste text into a text area, which will be extracted and displayed in to the same input text area for users to review. Below the source text display, are options for the user to define such as the kind of language used in the source text, the the citations for each source text used, including links, tags for more better search results, a title and description of the word cloud data, and the visibility of the territory to other users on the webpage.
 
 ### Edit Territory
-![](doc/edit-wordcloud-mockup-m1.png)
+![](doc/edit-wordcloud-mockup-m1.webp)
 After creating the word cloud data, users are directed to the edit page of that word cloud data, where they can immediately see every unique word that was found, the number of times each one shows up, and options for excluding words, merging word frequencies for similar words, and modifying other aspects of the territory.
 
 ### View Profiles
@@ -52,7 +52,7 @@ For searching for the specific territories, users can input key words in titles,
 They can also search for other users registered in the database. For private territories, users can only access those via their bookmarks or by accessing the direct links shared by the owners of those territories.
 
 ### Admin
-![](doc/dmin-page-mockup-m1.webp)
+![](doc/admin-page-mockup-m1.webp)
 Admins are able to view all registered users and created word clouds within the database. They will also be able to edit and remove wordclouds.
 
 
