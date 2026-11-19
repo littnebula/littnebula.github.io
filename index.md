@@ -91,7 +91,7 @@ $ npx prisma db push
 
 Proceed to seed your database with 
 ```
-npx prisma db seed
+$ npx prisma db seed
 ```
 and check from your Vercel dashboard for a successful database update. If database contains new users, the project has been successfully deployed.
 
