@@ -9,7 +9,7 @@
 * [Continuous Integration](#continuous-integration)
 * [Deployment](#deployment)
 * [Example enhancements](#example-enhancements)
-* [Team & Team Contract](#team-&-team-contract)
+* [Contact Us](#contact-us)
 
 ## Overview
 A hub where users can upload text, to be generated into word cloud data (word frequency dictionaries) that can be displayed as a visual cluster of words or an organized list, with tools for sharing, collaboration, research, and analysis. Word cloud data provides an analysis of both individual and collective thoughts from authors of a specific time period or culture, comparing the frequency of words and ideas used in different bodies of text and showing how they may change over time. LittNebula is a name inspired by the power of language and paying homage to ancient latin, one of the origins of the most widely spoken language in the world, where “Litt” is a shorthand for littera, meaning Literature and “Nebula”, meaning cloud. The modern concept of nebulas relating to space and astronomy invokes the same feeling of grandeur and depth that the research enabled by word clouds. Reinforcing this connection, the LittNebula utilizes a theme reminiscent of cosmology and astrological bodies in its color scheme, symbols, and terminology. Our organization can be found [here](https://github.com/littnebula).
@@ -60,6 +60,9 @@ Admins are able to view all registered users and created word clouds within the 
 ## Community Feedback
 
 We are interested in your experience using LittNebula! If you would like, please take a couple of minutes to email us at LitteraNebulaTeam@gmail.com, telling us about any issues, suggestion for improvements or other comments on your use of the site and how we can improve the site to enhance that experience.
+
+## Developer Guide
+![](developer-guide.webp)
 
 ### Application Design
 
@@ -119,8 +122,10 @@ There are a number of simple enhancements you can make to the system to become b
 * Update word extraction algorithm to work with more languages
 
 
-## Team & Team Contract
+## Contact Us
 
 LittNebula is designed, implemented, and maintained by [Kevin Lee](https://leek7.github.io/) and [Au Quang](https://quangau0298.github.io/).
 
 [Team Contract](https://docs.google.com/document/d/1K-Z6O15edzg4vVwJW1Ri5eDH_MEYKxb6_zQOc_Yk1P4/edit?tab=t.0)
+
+For any further questions on our organization or project, please contact us at LitteraNebulaTeam@gmail.com
