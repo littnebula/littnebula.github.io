@@ -77,9 +77,14 @@ Each Wordcloud will contain a dictionary of unqie words and the the amount of ti
 
 All wordclouds and comments will have a unique Id and an owner property that will be used to show who created them and who has access to modify or delete them.
 
+Join tables will be used for tracking bookmarked WordClouds and recently viewed WordClouds for each user
+
 ## Development History
 * 2026-11-05 : Create development document for initial planning of project execution. 
 * 2026-11-06 : Create organization Homepage and web application repository. 
+* 2026-11-12 : Database Migrated and interacting with Vercel Deployed Webpage
+* 2026-11-14 : Users interactions with database, Creating, Editing, and Deleting entries are implemented
+* 2026-11-17 : Milestone 1 Project tasks completed and merged to main branch
 
 
 ## Continuous Integration
