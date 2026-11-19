@@ -65,6 +65,17 @@ We are interested in your experience using LittNebula! If you would like, please
 ## Developer Guide
 ![](doc/developer-guide.webp)
 
+Following the Steps above to setup the project on your local device,
+For deploying this project to Vercel, Ensure that you have
+1) Created a Vercel account,
+2) have a Prisma database created affiliated with that Vercel account
+Create a new project in your Vercel dashboard and connect your own github repository where the project files are located to that Vercel project.
+Link the online database to your Vercel project if not already done.
+In your local environment, install vercel and run "vercel link" in the project directory.
+Finally, retrieve your vercel database environment variables using the command "vercel env pull".
+Ensure that the project database schema is pushed to the online database using "npx prisma db push"
+Proceed to seed your database with "npx prisma db seed" and check from your Vercel dashboard for a successful database update. If database contains new users, the project has been successfully deployed.
+
 ### Application Design
 
 LittNebula is based upon [Nextjs-Application-Template](https://ics-software-engineering.github.io/nextjs-application-template/). Please use the videos and documentation at this site to better acquaint yourself with the basic application design in LittNebula.
