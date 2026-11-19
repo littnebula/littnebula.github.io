@@ -7,6 +7,7 @@
 * [Developer Guide](#developer-guide)
 * [Development History](#development-history)
 * [Continuous Integration](#continuous-integration)
+* [Project Milestones](#project-milestones)
 * [Deployment](#deployment)
 * [Example enhancements](#example-enhancements)
 * [Contact Us](#contact-us)
@@ -62,7 +63,7 @@ Admins are able to view all registered users and created word clouds within the 
 We are interested in your experience using LittNebula! If you would like, please take a couple of minutes to email us at LitteraNebulaTeam@gmail.com, telling us about any issues, suggestion for improvements or other comments on your use of the site and how we can improve the site to enhance that experience.
 
 ## Developer Guide
-![](developer-guide.webp)
+![](doc/developer-guide.webp)
 
 ### Application Design
 
