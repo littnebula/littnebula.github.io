@@ -74,12 +74,26 @@ For deploying this project to Vercel, Ensure that you have
 Create a new project in your Vercel dashboard and connect your own github repository where the project files are located to that Vercel project.
 
 Link the online database to your Vercel project if not already done.
-In your local environment, install vercel and run "vercel link" in the project directory.
+In your local environment, install vercel and run 
+```
+$ vercel link
+```
+in the project directory.
 
-Finally, retrieve your vercel database environment variables using the command "vercel env pull".
-Ensure that the project database schema is pushed to the online database using "npx prisma db push".
+Finally, retrieve your vercel database environment variables using the command 
+```
+$ vercel env pull
+```
+Ensure that the project database schema is pushed to the online database using 
+```
+$ npx prisma db push
+```
 
-Proceed to seed your database with "npx prisma db seed" and check from your Vercel dashboard for a successful database update. If database contains new users, the project has been successfully deployed.
+Proceed to seed your database with 
+```
+npx prisma db seed
+```
+and check from your Vercel dashboard for a successful database update. If database contains new users, the project has been successfully deployed.
 
 ### Application Design
 
