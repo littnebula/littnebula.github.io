@@ -7,11 +7,12 @@
 * [Developer Guide](#developer-guide)
 * [Development History](#development-history)
 * [Continuous Integration](#continuous-integration)
+* [Deployment](#deployment)
 * [Example enhancements](#example-enhancements)
-* [Team](#team)
+* [Team & Team Contract](#team-&-team-contract)
 
 ## Overview
-A hub where users can upload text, to be generated into word cloud data (word frequency dictionaries) that can be displayed as a visual cluster of words or an organized list, with tools for sharing, collaboration, research, and analysis. Word cloud data provides an analysis of both individual and collective thoughts from authors of a specific time period or culture, comparing the frequency of words and ideas used in different bodies of text and showing how they may change over time. LittNebula is a name inspired by the power of language and paying homage to ancient latin, one of the origins of the most widely spoken language in the world, where “Litt” is a shorthand for littera, meaning Literature and “Nebula”, meaning cloud. The modern concept of nebulas relating to space and astronomy invokes the same feeling of grandeur and depth that the research enabled by word clouds. Reinforcing this connection, the LittNebula utilizes a theme reminiscent of cosmology and astrological bodies in its color scheme, symbols, and terminology.
+A hub where users can upload text, to be generated into word cloud data (word frequency dictionaries) that can be displayed as a visual cluster of words or an organized list, with tools for sharing, collaboration, research, and analysis. Word cloud data provides an analysis of both individual and collective thoughts from authors of a specific time period or culture, comparing the frequency of words and ideas used in different bodies of text and showing how they may change over time. LittNebula is a name inspired by the power of language and paying homage to ancient latin, one of the origins of the most widely spoken language in the world, where “Litt” is a shorthand for littera, meaning Literature and “Nebula”, meaning cloud. The modern concept of nebulas relating to space and astronomy invokes the same feeling of grandeur and depth that the research enabled by word clouds. Reinforcing this connection, the LittNebula utilizes a theme reminiscent of cosmology and astrological bodies in its color scheme, symbols, and terminology. Our organization can be found [here](https://github.com/littnebula).
 
 The is webpage utilizes software engineering frameworks and templates such as:
 * [React](https://reactjs.org/) for component-based UI implementation and routing.
